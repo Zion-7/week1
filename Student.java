@@ -1,5 +1,5 @@
 public class Student extends Person{
-        private String classroom;
+         String classroom;
         public String getClassroom() {
             return classroom;
         }
