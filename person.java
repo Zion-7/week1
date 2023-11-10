@@ -39,7 +39,7 @@ class person implements Nameable {
             return true;
         }
     }
-    public String correctName() {
+    public String getCorrectName() {
         return name;
     }
 }

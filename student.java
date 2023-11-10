@@ -8,6 +8,6 @@ public class student extends person{
         this.classroom = classroom;
     }
     public student(boolean parent_permission, int age, String name, int id) {
-        super(id, name, parent_permission, age);
+        super(age, name, parent_permission, id);
     }
 }

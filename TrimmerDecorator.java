@@ -3,11 +3,14 @@ public class TrimmerDecorator extends Decorator {
         super(nameable);
     }
 
-    public String correctName() {
-        String name = nameae.correctName();
-        if (name.length() > 9) {
-            return name.substring(0, 9);
+    public String getCorrectName() {
+
+        String name = nameable.getCorrectName();
+
+        if (name.length() > 10) {
+            return name.substring(0, 10);
         }
         return name;
     }
+
 }
