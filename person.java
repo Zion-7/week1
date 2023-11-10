@@ -1,4 +1,4 @@
-public class person implements Nameable {
+class person implements Nameable {
     String name = "unknown";
     int age;
     int id;

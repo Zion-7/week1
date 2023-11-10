@@ -1,10 +1,10 @@
 public abstract class Decorator implements Nameable {
-public Nameable nameable;
+public Nameable nameabe;
 
     public Decorator(Nameable nameable) {
-        this.nameable = nameable;
+        this.nameabe = nameable;
     }
     public String correctName() {
-        return nameable.correctName();
+        return nameabe.correctName();
     }
 }

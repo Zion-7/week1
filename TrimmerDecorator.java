@@ -4,9 +4,9 @@ public class TrimmerDecorator extends Decorator {
     }
 
     public String correctName() {
-        String name = nameable.correctName();
-        if (name.length() > 10) {
-            return name.substring(0, 10);
+        String name = nameabe.correctName();
+        if (name.length() > 9) {
+            return name.substring(0, 9);
         }
         return name;
     }
