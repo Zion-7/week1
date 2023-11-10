@@ -34,12 +34,11 @@ class person implements Nameable {
         }
     }
     public boolean canUseServices() {
-        if (age > 18 || parent_permission);
+        if (age >= 18 || parent_permission);
         {
             return true;
         }
     }
-
     public String correctName() {
         return name;
     }

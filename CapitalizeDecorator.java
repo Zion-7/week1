@@ -3,7 +3,7 @@ public class CapitalizeDecorator extends Decorator {
         super(nameable);
     }
     public String correctName() {
-        String name = nameabe.correctName();
+        String name = nameae.correctName();
         return name.toLowerCase();
     }
 }
